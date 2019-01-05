@@ -1,18 +1,16 @@
 # GameHUB Launcher 1.5 
-A game launcher interface for PC.  
-![alt text](https://github.com/callmeEthan/gameHUB/raw/master/preview.png)
+A game launcher interface for PC inspired by Fallout.  
+![alt text](https://github.com/callmeEthan/gameHUB/raw/Pipboy/preview.png)
 
 ## Feature
-* Navigate with mouse wheel or arrow keys, escape to exit.
+* You can navigate with mouse wheel or arrow keys, escape to exit, tab to switch tab.
 * Work with controller, activate launcher with Start (only when explorer or rainmeter in foreground, not to interfere during game).
-* Smooth scrolling animation, cost CPU and performance, But its not like you gonna leave it running all the time.
-* Wizard interface for game editing, layout configure, settings.
-* Allow swap game position.
+* Scrolling list like pip boy
 
 ## Installation
 Require rainmeter 4+ and windows 10.  
 Download rainmeter at https://www.rainmeter.net/.  
-Download and install [skin file](https://github.com/callmeEthan/gameHUB/raw/master/gamehub_launcher_1_5_for_rainmeter.rmskin)
+Download and install [skin file](https://github.com/callmeEthan/gameHUB/raw/Pipboy/gamehub_pip_boy_theme_for_rainmeter.rmskin)
 
 ## Usage
 Activate button skin are included.  
@@ -25,10 +23,8 @@ Plugin included:
 [Hotkey 1.0](https://forum.rainmeter.net/viewtopic.php?t=18849) by Brian.  
 [XInput](https://forum.rainmeter.net/viewtopic.php?t=20108) by dgrace.  
 [IsFullScreen 3.0](https://forum.rainmeter.net/viewtopic.php?t=28305) by jsmorley.  
-[Drag&Drop V3.1.3](https://forum.rainmeter.net/viewtopic.php?t=23107) by theAzack9.  
-Some icons from [materialdesignicons.com](materialdesignicons.com).  
 Some game cover and icons are included.  
 
 ## Authors
 [Ethan (Finch)](https://github.com/callmeEthan).  
-This would be my final version if there's no issues.  
+This crap is really old I can't remember what's in it anymore.
