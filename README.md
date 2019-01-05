@@ -1,4 +1,4 @@
-# GameHUB Launcher 1.5 
+# GameHUB Pipboy theme
 A game launcher interface for PC inspired by Fallout.  
 ![alt text](https://github.com/callmeEthan/gameHUB/raw/Pipboy/preview.png)
 
