@@ -16,30 +16,30 @@ Gamecover3=nier.png
 Gamedir3=D:\Program Files\NieR - Automata\NieRAutomata.exe
 Gamewall3=nier.jpg
 
-Gamename4=Final Fantasy XV
-Gamecover4=ffxv.png
-Gamewall4=ffxv.jpg
-Gamedir4=D:\Program Files\FFXV\ffxv_s.exe
+Gamename4=The Witcher 3 - Wild Hunt
+Gamecover4=witcher3.png
+Gamewall4=witcher3.png
+Gamedir4=D:\Program Files\The Witcher 3 - Wild Hunt\bin\x64\witcher3.exe
 
-Gamename5=The Witcher 3 - Wild Hunt
-Gamecover5=witcher3.png
-Gamewall5=witcher3.png
-Gamedir5=D:\Program Files\The Witcher 3 - Wild Hunt\bin\x64\witcher3.exe
+Gamename5=Battlefield 4
+Gamecover5=bf4.png
+Gamewall5=bf4.jpg
+Gamedir5=D:\Program Files\Battlefield 4\bf4.exe
 
-Gamename6=Fallout 4
-Gamecover6=fallout4.png
-Gamewall6=fallout4.jpg
-Gamedir6=D:\Program Files\Fallout 4\f4se_loader.exe
+Gamename6=Kerbal Space Program
+Gamecover6=kerbal.png
+Gamewall6=kerbal.jpg
+Gamedir6=D:\Program Files\Kerbal Space Program Making History\KSP_x64.exe
 
-Gamename7=Battlefield 4
-Gamecover7=bf4.png
-Gamewall7=bf4.jpg
-Gamedir7=D:\Program Files\Battlefield 4\bf4.exe
+Gamename7=Final Fantasy XV
+Gamecover7=ffxv.png
+Gamewall7=ffxv.jpg
+Gamedir7=D:\Program Files\FFXV\ffxv_s.exe
 
-Gamename8=Kerbal Space Program
-Gamecover8=kerbal.png
-Gamewall8=kerbal.jpg
-Gamedir8=D:\Program Files\Kerbal Space Program Making History\KSP_x64.exe
+Gamename8=Fallout 4
+Gamecover8=fallout4.png
+Gamewall8=fallout4.jpg
+Gamedir8=D:\Program Files\Fallout 4\f4se_loader.exe
 
 Gamename9=Call of Duty World War 2
 Gamecover9=codww2.png
@@ -51,107 +51,154 @@ Gamecover10=wd2.png
 Gamewall10=wd2.jpg
 Gamedir10=D:\Program Files\Watch Dogs 2\bin\WatchDogs2.exe
 
-Gamename11=The sims 4
-Gamecover11=sims4.png
-Gamewall11=sims4.jpg
-Gamedir11=D:\Program Files\The Sims 4\Game\Bin\TS4_x64.exe
+Gamename13=Hellblade: Senua's Sacrifice
+Gamecover13=hellblade.png
+Gamewall13=hellblade.jpg
+Gamedir13=D:\Program Files\Hellblade - Senua's Sacrifice\HellbladeGame.exe
+
 
 Gamename12=Minecraft
 Gamecover12=minecraft.png
 Gamewall12=minecraft.jpg
 Gamedir12=C:\Users\Finch\AppData\Roaming\.minecraft\MinecraftLauncher.exe
 
-Gamename13=Hellblade: Senua's Sacrifice
-Gamecover13=hellblade.png
-Gamewall13=hellblade.jpg
-Gamedir13=D:\Program Files\Hellblade - Senua's Sacrifice\HellbladeGame.exe
+Gamename11=The sims 4
+Gamecover11=sims4.png
+Gamewall11=sims4.jpg
+Gamedir11=D:\Program Files\The Sims 4\Game\Bin\TS4_x64.exe
 
 Gamename14=Stardew Valley
 Gamecover14=sv.png
 Gamewall14=sv.jpg
 Gamedir14=D:\Program Files\Stardew.Valley.v1.3.27\StardewModdingAPI.exe
 
-Gamename15=
-Gamecover15=default.png
-Gamewall15=default.png
-Gamedir15=
+Gamename15=Batman: Arkham Knight 
+Gamecover15=arkhamknight.png
+Gamewall15=arkhamknight.jpg
+Gamedir15=D:\Program Files\Batman - Arkham Knight\Binaries\Win64\BatmanAK.exe
 
-Gamename16=
-Gamecover16=default.png
-Gamewall16=default.png
-Gamedir16=
+Gamename16=Warframe
+Gamecover16=warframe.png
+Gamedir16=C:\Users\Finch\AppData\Local\Warframe\Downloaded\Test\Tools\Launcher.exe
+Gamewall16=warframe.png
 
-Gamename17=
-Gamecover17=default.png
-Gamewall17=default.png
-Gamedir17=
+Gamename17=Nier Automata
+Gamecover17=nier.png
+Gamedir17=D:\Program Files\NieR - Automata\NieRAutomata.exe
+Gamewall17=nier.jpg
 
-Gamename18=
-Gamecover18=default.png
-Gamewall18=default.png
-Gamedir18=
+Gamename18=The Witcher 3 - Wild Hunt
+Gamecover18=witcher3.png
+Gamewall18=witcher3.png
+Gamedir18=D:\Program Files\The Witcher 3 - Wild Hunt\bin\x64\witcher3.exe
 
-Gamename19=
-Gamecover19=default.png
-Gamewall19=default.png
-Gamedir19=
+Gamename19=Battlefield 4
+Gamecover19=bf4.png
+Gamewall19=bf4.jpg
+Gamedir19=D:\Program Files\Battlefield 4\bf4.exe
 
-Gamename20=
-Gamecover20=default.png
-Gamewall20=default.png
-Gamedir20=
+Gamename20=Kerbal Space Program
+Gamecover20=kerbal.png
+Gamewall20=kerbal.jpg
+Gamedir20=D:\Program Files\Kerbal Space Program Making History\KSP_x64.exe
 
-Gamename21=
-Gamecover21=default.png
-Gamewall21=default.png
-Gamedir21=
+Gamename21=Batman: Arkham Knight 
+Gamecover21=arkhamknight.png
+Gamewall21=arkhamknight.jpg
+Gamedir21=D:\Program Files\Batman - Arkham Knight\Binaries\Win64\BatmanAK.exe
 
-Gamename22=
-Gamecover22=default.png
-Gamewall22=default.png
-Gamedir22=
+Gamename22=Warframe
+Gamecover22=warframe.png
+Gamedir22=C:\Users\Finch\AppData\Local\Warframe\Downloaded\Test\Tools\Launcher.exe
+Gamewall22=warframe.png
 
-Gamename23=
-Gamecover23=default.png
-Gamewall23=default.png
-Gamedir23=
+Gamename23=Nier Automata
+Gamecover23=nier.png
+Gamedir23=D:\Program Files\NieR - Automata\NieRAutomata.exe
+Gamewall23=nier.jpg
 
-Gamename24=
-Gamecover24=default.png
-Gamewall24=default.png
-Gamedir24=
+Gamename24=The Witcher 3 - Wild Hunt
+Gamecover24=witcher3.png
+Gamewall24=witcher3.png
+Gamedir24=D:\Program Files\The Witcher 3 - Wild Hunt\bin\x64\witcher3.exe
 
-Gamename25=
-Gamecover25=default.png
-Gamewall25=default.png
-Gamedir25=
+Gamename25=Battlefield 4
+Gamecover25=bf4.png
+Gamewall25=bf4.jpg
+Gamedir25=D:\Program Files\Battlefield 4\bf4.exe
 
-Gamename26=
-Gamecover26=default.png
-Gamewall26=default.png
-Gamedir26=
+Gamename26=Kerbal Space Program
+Gamecover26=kerbal.png
+Gamewall26=kerbal.jpg
+Gamedir26=D:\Program Files\Kerbal Space Program Making History\KSP_x64.exe
 
-Gamename27=
-Gamecover27=default.png
-Gamewall27=default.png
-Gamedir27=
+Gamename27=Final Fantasy XV
+Gamecover27=ffxv.png
+Gamewall27=ffxv.jpg
+Gamedir27=D:\Program Files\FFXV\ffxv_s.exe
 
-Gamename28=
-Gamecover28=default.png
-Gamewall28=default.png
-Gamedir28=
+Gamename28=Fallout 4
+Gamecover28=fallout4.png
+Gamewall28=fallout4.jpg
+Gamedir28=D:\Program Files\Fallout 4\f4se_loader.exe
 
-Gamename29=
-Gamecover29=default.png
-Gamewall29=default.png
-Gamedir29=
+Gamename29=Middle Earth: Shadow of War
+Gamecover29=middleearth2.png
+Gamewall29=middleearth2.jpg
+Gamedir29=D:\Program Files\Middle-Earth - Shadow of War\x64\ShadowOfWar.exe
 
-Gamename30=
-Gamecover30=default.png
-Gamewall30=default.png
-Gamedir30=
+Gamename30=Watch Dogs 2
+Gamecover30=wd2.png
+Gamewall30=wd2.jpg
+Gamedir30=D:\Program Files\Watch Dogs 2\bin\WatchDogs2.exe
 
-Gamename31=
-Gamecover31=default.png
-Gamewall31=default.png
-Gamedir31=
+Gamename33=The evil within 2
+Gamecover33=tew2.png
+Gamewall33=tew2.jpg
+Gamedir33=D:\Program Files\The Evil Within 2\TEW2.exe
+
+
+Gamename32=Minecraft
+Gamecover32=minecraft.png
+Gamewall32=minecraft.jpg
+Gamedir32=C:\Users\Finch\AppData\Roaming\.minecraft\MinecraftLauncher.exe
+
+Gamename31=The sims 4
+Gamecover31=sims4.png
+Gamewall31=sims4.jpg
+Gamedir31=D:\Program Files\The Sims 4\Game\Bin\TS4_x64.exe
+
+Gamename34=Stardew Valley
+Gamecover34=sv.png
+Gamewall34=sv.jpg
+Gamedir34=D:\Program Files\Stardew.Valley.v1.3.27\StardewModdingAPI.exe
+
+Gamename35=Batman: Arkham Knight 
+Gamecover35=arkhamknight.png
+Gamewall35=arkhamknight.jpg
+Gamedir35=D:\Program Files\Batman - Arkham Knight\Binaries\Win64\BatmanAK.exe
+
+Gamename36=Warframe
+Gamecover36=warframe.png
+Gamedir36=C:\Users\Finch\AppData\Local\Warframe\Downloaded\Test\Tools\Launcher.exe
+Gamewall36=warframe.png
+
+Gamename37=Nier Automata
+Gamecover37=nier.png
+Gamedir37=D:\Program Files\NieR - Automata\NieRAutomata.exe
+Gamewall37=nier.jpg
+
+Gamename38=The Witcher 3 - Wild Hunt
+Gamecover38=witcher3.png
+Gamewall38=witcher3.png
+Gamedir38=D:\Program Files\The Witcher 3 - Wild Hunt\bin\x64\witcher3.exe
+
+Gamename39=Battlefield 4
+Gamecover39=bf4.png
+Gamewall39=bf4.jpg
+Gamedir39=D:\Program Files\Battlefield 4\bf4.exe
+
+Gamename40=Kerbal Space Program
+Gamecover40=kerbal.png
+Gamewall40=kerbal.jpg
+Gamedir40=D:\Program Files\Kerbal Space Program Making History\KSP_x64.exe

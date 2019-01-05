@@ -10,6 +10,15 @@ IF EXIST SpectrumCover.inc (del /q SpectrumCover.inc)
 echo writing game panel...
 
 :LOOP
+:WRITEGAMEBACK
+@echo [GameBack%index%] >>SpectrumCover.inc
+@echo Meter=Image >>SpectrumCover.inc
+@echo MeterStyle=GameCover >>SpectrumCover.inc
+@echo X=([SmoothScroll])+(#Space#)*Trunc(%entry%/#Rows#) >>SpectrumCover.inc
+@echo Y=((%entry%%%#Rows#)*(#BannerHeight#+#Rowspace#))-[SmoothTransition]+#CURRENTCONFIGHEIGHT# >>SpectrumCover.inc
+@echo ImageName=#@#Spectrum\Cover\#Gamewall%index%# >>SpectrumCover.inc
+@echo Hidden=1 >>SpectrumCover.inc
+
 :WRITEGAME
 @echo [Game%index%] >>SpectrumCover.inc
 @echo Meter=Image >>SpectrumCover.inc
@@ -17,20 +26,10 @@ echo writing game panel...
 @echo ImageName=#@#Spectrum\#Gamecover%index%# >>SpectrumCover.inc
 @echo X=([SmoothScroll])+(#Space#)*Trunc(%entry%/#Rows#) >>SpectrumCover.inc
 @echo Y=((%entry%%%#Rows#)*(#BannerHeight#+#Rowspace#))-[SmoothTransition]+#CURRENTCONFIGHEIGHT# >>SpectrumCover.inc
-@echo MouseOverAction=[!SetOption "#CURRENTSECTION#" "SolidColor" "0,0,0,1"][Play "#@#Sounds\Hover.wav"][!SetVariable Select "%index%"][!ShowMeter "CoverHighlight"] >>SpectrumCover.inc
-@echo MouseLeaveAction=[!SetOption "#CURRENTSECTION#" "SolidColor" "#CoverSolid#"] >>SpectrumCover.inc
+@echo MouseOverAction=[Play "#@#Sounds\Hover.wav"][!ShowMeter "GameBack%index%"][!SetVariable Select "%index%"] >>SpectrumCover.inc
+@echo MouseLeaveAction=[!HideMeter "GameBack%index%"] >>SpectrumCover.inc
 @echo LeftMouseUpAction=!Execute [!CommandMeasure InputExecute "Execute %index%"] >>SpectrumCover.inc
-@echo.  >>SpectrumCover.inc
-:CHECKGAME
-if %index% geq  %count% goto LOOPTITLE
-set/a index=%index%+1
-set/a entry=%index%-1
-goto WRITEGAME
 
-:LOOPTITLE
-@echo.  >>SpectrumCover.inc
-set index=1
-set entry=0
 :WRITETITLE
 @echo [GameTitle%index%] >>SpectrumCover.inc
 @echo Meter=String >>SpectrumCover.inc
@@ -40,11 +39,11 @@ set entry=0
 @echo Text=#Gamename%index%# >>SpectrumCover.inc
 @echo.  >>SpectrumCover.inc
 
-:CHECKTITLE
+:CHECK
 if %index% geq  %count% goto INPUTEXECUTE
 set/a index=%index%+1
 set/a entry=%index%-1
-goto WRITETITLE
+goto LOOP
 
 :INPUTEXECUTE
 echo writting panel action...
@@ -52,7 +51,6 @@ set index=1
 @echo [InputExecute] >>SpectrumCover.inc
 @echo Measure=Plugin >>SpectrumCover.inc
 @echo Plugin=ActionTimer >>SpectrumCover.inc
-@echo DynamicVariables=1 >>SpectrumCover.inc
 :ADDACTION
 @echo ActionList%index%=Select%index%^|Deactivate >>SpectrumCover.inc
 set/a index=%index%+1
@@ -63,9 +61,8 @@ set index=1
 @echo Select%index%=!Execute [Play "#@#Sounds\Launch.wav"]["#Gamedir%index%#"] >>SpectrumCover.inc
 set/a index=%index%+1
 if %index% LEQ %count% goto ADDCOMMAND
-@echo Deactivate=[!CommandMeasure Exit "Execute 1" "GameHUB"] >>SpectrumCover.inc
-goto FINISH
 
+@echo Deactivate=[!CommandMeasure Exit "Execute 1" "GameHUB"] >>SpectrumCover.inc
 @echo.  >>SpectrumCover.inc
 @echo [TotalGameCheck] >>SpectrumCover.inc
 @echo Measure=Calc >>SpectrumCover.inc
@@ -87,11 +84,11 @@ goto FINISH
 @echo Disabled=1 >>SpectrumCover.inc
 @echo UpdateDivider=-1 >>SpectrumCover.inc
 @echo IfCondition=(#Select#=1) >>SpectrumCover.inc
-@echo IfTrueAction=[Play "#@#Sounds\Hover.wav"][!SetOptionGroup "Icon" "SolidColor" "#CoverSolid#"][!SetOption "Game1" "SolidColor" "0,0,0,1"][!ShowMeter "CoverHighlight"][!SetVariable "OffsetX" "(#OffsetX#<20 ? 20 : #OffsetX#)"] >>SpectrumCover.inc
+@echo IfTrueAction=[Play "#@#Sounds\Hover.wav"][!SetOptionGroup "Cover" "Hidden" "1"][!ShowMeter "GameBack1"][!SetVariable "OffsetX" "(#OffsetX#<20 ? 20 : #OffsetX#)"] >>SpectrumCover.inc
 @echo IfCondition2=(#Select#^>1) >>SpectrumCover.inc
-@echo IfTrueAction2=[Play "#@#Sounds\Hover.wav"][!SetOptionGroup "Icon" "SolidColor" "#CoverSolid#"][!SetOption "Game#Select#" "SolidColor" "0,0,0,1"][!ShowMeter "CoverHighlight"][!SetVariable "OffsetX" "(#OffsetX#<(-#Space#*(Floor((#Select#-1)/#Rows#))+#Shown#) ? Min(-#Space#*Trunc((#Select#-1)/#Rows#)+#Shown#,20) : (#OffsetX#>(-#Space#*(Trunc((#Select#-1)/#Rows#))+#CURRENTCONFIGWIDTH#-#Shown#*2) ? Max(-#Space#*(Trunc((#Select#-1)/#Rows#))+#CURRENTCONFIGWIDTH#-#Shown#*2,#ScrollLimit#) : #OffsetX#))"] >>SpectrumCover.inc
+@echo IfTrueAction2=[Play "#@#Sounds\Hover.wav"][!SetOptionGroup "Cover" "Hidden" "1"][!ShowMeter "GameBack#Select#"][!SetVariable "OffsetX" "(#OffsetX#<(-#Space#*(Floor((#Select#-1)/#Rows#))+#Shown#) ? Min(-#Space#*Trunc((#Select#-1)/#Rows#)+#Shown#,20) : (#OffsetX#>(-#Space#*(Trunc((#Select#-1)/#Rows#))+#CURRENTCONFIGWIDTH#-#Shown#*2) ? Max(-#Space#*(Trunc((#Select#-1)/#Rows#))+#CURRENTCONFIGWIDTH#-#Shown#*2,#ScrollLimit#) : #OffsetX#))"] >>SpectrumCover.inc
 @echo IfConditionMode=1 >>SpectrumCover.inc
 
 :END
 echo Completed!
-timeout 1 >nul
+pause>nul

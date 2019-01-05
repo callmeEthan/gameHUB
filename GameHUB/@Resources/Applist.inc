@@ -11,15 +11,15 @@ Gamecover2=chrome.png
 Gamedir2=C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
 Gamewall2=chrome.jpg
 
-Gamename3=After Effect
-Gamecover3=ae.png
-Gamedir3=C:\Program Files\Adobe\Adobe After Effects CC 2018\Support Files\AfterFX.exe
-Gamewall3=ae.png
+Gamename3=GM:Studio
+Gamecover3=gms.png
+Gamedir3=D:\Program Files\GameMaker-Studio\Startilla_V3.exe
+Gamewall3=gms.jpg
 
-Gamename4=GM:Studio
-Gamecover4=gms.png
-Gamewall4=gms.jpg
-Gamedir4=D:\Program Files\GameMaker-Studio\Startilla_V3.exe
+Gamename4=After Effect
+Gamecover4=ae.png
+Gamewall4=ae.png
+Gamedir4=C:\Program Files\Adobe\Adobe After Effects CC 2018\Support Files\AfterFX.exe
 
 Gamename5=Photoshop
 Gamecover5=ps.png
@@ -40,7 +40,7 @@ Gamedir7=D:\Program Files\Editor\Unity.exe
 Gamename8=Discord
 Gamecover8=discord.png
 Gamewall8=discord.jpg
-Gamedir8=C:\Users\siegw\AppData\Local\Discord\Update.exe" "--processStart" "Discord.exe
+Gamedir8="C:\Users\%username%\AppData\Local\Discord\Update.exe" "--processStart" "Discord.exe"
 
 Gamename9=Groove Music
 Gamecover9=music.png

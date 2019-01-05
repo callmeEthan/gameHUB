@@ -42,7 +42,6 @@ set index=1
 @echo [InputExecute] >>SpectrumCover.inc
 @echo Measure=Plugin >>SpectrumCover.inc
 @echo Plugin=ActionTimer >>SpectrumCover.inc
-@echo DynamicVariables=1 >>SpectrumCover.inc
 :ADDACTION
 @echo ActionList%index%=Select%index%^|Deactivate >>SpectrumCover.inc
 set/a index=%index%+1
@@ -53,9 +52,8 @@ set index=1
 @echo Select%index%=!Execute [Play "#@#Sounds\Launch.wav"]["#Gamedir%index%#"] >>SpectrumCover.inc
 set/a index=%index%+1
 if %index% LEQ %count% goto ADDCOMMAND
-@echo Deactivate=[!CommandMeasure Exit "Execute 1" "GameHUB"] >>SpectrumCover.inc
-goto FINISH
 
+@echo Deactivate=[!CommandMeasure Exit "Execute 1" "GameHUB"] >>SpectrumCover.inc
 @echo.  >>SpectrumCover.inc
 @echo [TotalGameCheck] >>SpectrumCover.inc
 @echo Measure=Calc >>SpectrumCover.inc
@@ -116,5 +114,5 @@ goto ADDBACKGROUND
 
 :END
 echo Completed!
-if %new%==1 (echo Please Refresh all skin in rainmeter to update new background skin.) & (pause >nul)
-timeout 1 >nul
+if %new%==1 (echo Please Refresh all skin in rainmeter to update new background skin.)
+pause>nul
