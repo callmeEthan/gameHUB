@@ -1,5 +1,6 @@
 # GameHUB Launcher 1.5 
 A game launcher interface for PC.  
+![alt text](https://github.com/callmeEthan/gameHUB/raw/master/preview.png)
 
 ## Feature
 * Navigate with mouse wheel or arrow keys, escape to exit.
