@@ -11,6 +11,7 @@ A game launcher interface for PC.
 ## Installation
 Require rainmeter 4+ and windows 10.  
 Download rainmeter at https://www.rainmeter.net/.  
+Download and install [skin file](https://github.com/callmeEthan/gameHUB/raw/master/gamehub_launcher_1_5_for_rainmeter.rmskin)
 
 ## Usage
 Activate button skin are included.  
