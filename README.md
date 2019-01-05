@@ -23,7 +23,7 @@ Plugin included:
 [Hotkey 1.0](https://forum.rainmeter.net/viewtopic.php?t=18849) by Brian.  
 [XInput](https://forum.rainmeter.net/viewtopic.php?t=20108) by dgrace.  
 [IsFullScreen 3.0](https://forum.rainmeter.net/viewtopic.php?t=28305) by jsmorley.  
-[Drag&Drop V3.1.3]https://forum.rainmeter.net/viewtopic.php?t=23107 by theAzack9.  
+[Drag&Drop V3.1.3](https://forum.rainmeter.net/viewtopic.php?t=23107) by theAzack9.  
 Some icons from [materialdesignicons.com](materialdesignicons.com).  
 Some game cover and icons are included.  
 
